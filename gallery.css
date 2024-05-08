@@ -1,0 +1,73 @@
+User
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: yellow;
+}
+h1 {
+  text-align: center;
+    font-size:100px;
+}
+body {
+  background-color: white;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.photo {
+  background-size: cover;
+  background-position: center;
+}
+
+.photo1 {
+  background-image: url('/Users/joshuajenkins/Desktop/PROJECT_JOSHUA /images/IMG_1631.jpg');
+  height: 200px;
+}
+
+.photo2 {
+  background-image: url('/Users/joshuajenkins/Desktop/PROJECT_JOSHUA /images/IMG_9599-2.jpg');
+  height: 300px;
+}
+
+.photo3 {
+  background-image: url('/Users/joshuajenkins/Desktop/PROJECT_JOSHUA /images/IMG_1630.jpg');
+  height: 250px;
+}
+
+.photo4 {
+  background-image: url('/Users/joshuajenkins/Desktop/PROJECT_JOSHUA /images/IMG_1621.jpg');
+  height: 350px;
+}
+
+.photo5 {
+  background-image: url('/Users/joshuajenkins/Desktop/PROJECT_JOSHUA /images/IMG_0009.jpg');
+  height: 400px;
+}
+
+.photo6 {
+  background-image: url('/Users/joshuajenkins/Desktop/PROJECT_JOSHUA /images/IMG_1620.jpg');
+  height: 200px;
+}
+
